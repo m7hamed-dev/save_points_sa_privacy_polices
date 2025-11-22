@@ -11,9 +11,10 @@ Privacy policy files for Save Points SA applications.
 3. Choose branch: `main` and folder: `/ (root)`
 4. Click **Save**
 
-After a few minutes, view the privacy policy at:
+After a few minutes, view the privacy policies at:
 ```
 https://m7hamed-dev.github.io/save_points_sa_privacy_polices/habits_privacy_policy.html
+https://m7hamed-dev.github.io/save_points_sa_privacy_polices/alforsan_privacy_policy.html
 ```
 
 ### Option 2: Quick View (No Setup Required)
@@ -21,8 +22,11 @@ https://m7hamed-dev.github.io/save_points_sa_privacy_polices/habits_privacy_poli
 View directly using:
 ```
 https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/habits_privacy_policy.html
+https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/alforsan_privacy_policy.html
 ```
+
 
 ## Files
 
 - `habits_privacy_policy.html` - Privacy policy for the Habits app
+- `alforsan_privacy_policy.html` - Privacy policy for the Alforsan Dashboard (Laundry Management)
