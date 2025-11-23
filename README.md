@@ -15,6 +15,7 @@ After a few minutes, view the privacy policies at:
 ```
 https://m7hamed-dev.github.io/save_points_sa_privacy_polices/habits_privacy_policy.html
 https://m7hamed-dev.github.io/save_points_sa_privacy_polices/alforsan_privacy_policy.html
+https://m7hamed-dev.github.io/save_points_sa_privacy_polices/crafted_cv_privacy_policy.html
 ```
 
 ### Option 2: Quick View (No Setup Required)
@@ -23,6 +24,7 @@ View directly using:
 ```
 https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/habits_privacy_policy.html
 https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/alforsan_privacy_policy.html
+https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/crafted_cv_privacy_policy.html
 ```
 
 
@@ -30,3 +32,4 @@ https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/alforsan
 
 - `habits_privacy_policy.html` - Privacy policy for the Habits app
 - `alforsan_privacy_policy.html` - Privacy policy for the Alforsan Dashboard (Laundry Management)
+- `crafted_cv_privacy_policy.html` - Privacy policy for the Crafted CV app
