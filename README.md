@@ -20,7 +20,20 @@ https://m7hamed-dev.github.io/save_points_sa_privacy_polices/crafted_cv_privacy_
 https://m7hamed-dev.github.io/save_points_sa_privacy_polices/swi_dashboard_privacy_policy.html
 ```
 
-### Option 2: GitHub Raw URL (Most Reliable)
+### Option 2: jsDelivr CDN (Recommended for HTML Display)
+
+View using jsDelivr CDN (displays HTML correctly, not as plain text):
+```
+https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/habits_privacy_policy.html
+https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/alforsan_privacy_policy.html
+https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/crafted_cv_privacy_policy.html
+https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/crafted_cv_privacy_policy_ar.html
+https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/swi_dashboard_privacy_policy.html
+```
+
+### Option 3: GitHub Raw URL (Shows as Plain Text)
+
+⚠️ **Note:** GitHub Raw URLs display files as plain text, not as rendered HTML. Use this only if you need to view the source code.
 
 View directly using GitHub's raw content URLs:
 ```
@@ -31,7 +44,7 @@ https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/mai
 https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/swi_dashboard_privacy_policy.html
 ```
 
-### Option 3: Raw.githack.com (Alternative)
+### Option 4: Raw.githack.com (Alternative)
 
 View using raw.githack.com (may require a few minutes to sync):
 ```
