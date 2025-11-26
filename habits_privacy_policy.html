@@ -227,10 +227,11 @@
                 <li><strong>Habit Tracking:</strong> To record and display your habit completion data</li>
                 <li><strong>Progress Visualization:</strong> To generate charts and statistics about your habits</li>
                 <li><strong>Notifications:</strong> To send you local reminders for your habits (if enabled)</li>
-                <li><strong>Data Export:</strong> To allow you to export your data in PDF or other formats when
-                    requested</li>
-                <li><strong>App Functionality:</strong> To provide core features like calendar views, streak tracking,
-                    and progress reports</li>
+                <li><strong>Background Processing:</strong> To update habit data and process notifications in the background, ensuring your app stays current even when not actively in use (iOS background fetch and processing modes). This feature can be enabled or disabled by you in your device's Settings at any time.</li>
+                <li><strong>Data Export:</strong> To allow you to export your data in PDF or other formats when requested</li>
+                <li><strong>Data Import:</strong> To allow you to import previously exported data (optional, user-initiated)</li>
+                <li><strong>App Functionality:</strong> To provide core features like calendar views, streak tracking, and progress reports</li>
+                <li><strong>Security:</strong> To protect your data with biometric authentication and screen lock features</li>
             </ul>
 
             <h2>4. Data Storage and Security</h2>
@@ -257,18 +258,97 @@
             </p>
 
             <h2>5. Permissions</h2>
-            <p>Habits may request the following permissions to provide its functionality:</p>
-            <ul>
-                <li><strong>Notifications:</strong> To send you local reminders for your habits</li>
-                <li><strong>Biometric/Local Authentication:</strong> To secure your data with fingerprint or face
-                    recognition</li>
-                <li><strong>Storage:</strong> To save your habit data locally and export files</li>
-                <li><strong>File Access:</strong> To allow you to export data as PDF or other formats</li>
-            </ul>
             <p>
-                All permissions are used solely for the stated purposes and do not involve data transmission to external
-                servers.
+                Habits may request the following permissions to provide its functionality. All permissions are optional and
+                can be granted or denied by you. The app will function with reduced features if certain permissions are
+                denied.
             </p>
+
+            <h3>5.1 Notification Permissions</h3>
+            <p><strong>Purpose:</strong> To send you local reminders for your habits at custom times you set.</p>
+            <ul>
+                <li><strong>iOS:</strong> Notification permissions are requested when you enable notifications for a habit</li>
+                <li><strong>Android:</strong> Notification permissions are requested when you enable notifications for a habit</li>
+                <li><strong>Usage:</strong> Used only to deliver local notifications on your device. No data is transmitted to external servers</li>
+                <li><strong>Control:</strong> You can enable or disable notifications for individual habits or globally in app settings</li>
+            </ul>
+
+            <h3>5.2 Biometric Authentication Permissions</h3>
+            <p><strong>Purpose:</strong> To secure your data with biometric authentication (Face ID, Touch ID, or device passcode).</p>
+            <ul>
+                <li><strong>iOS:</strong> Face ID or Touch ID permission (NSFaceIDUsageDescription) - requested only when you enable biometric lock in app settings</li>
+                <li><strong>Android:</strong> Biometric authentication permission - requested only when you enable biometric lock</li>
+                <li><strong>Usage:</strong> Used only for local authentication to unlock the app. Biometric data never leaves your device</li>
+                <li><strong>Control:</strong> Completely optional. You can use the app without enabling biometric authentication</li>
+                <li><strong>Library:</strong> local_auth (^2.1.0)</li>
+            </ul>
+
+            <h3>5.3 File System and Storage Permissions</h3>
+            <p><strong>Purpose:</strong> To save your habit data locally and access files for import/export functionality.</p>
+            <ul>
+                <li><strong>iOS:</strong> File system access for app's document directory (automatically granted, no user permission required)</li>
+                <li><strong>Android:</strong> Storage permissions for saving and accessing files</li>
+                <li><strong>Usage:</strong> Used to store habit data locally and access files for data import/export</li>
+                <li><strong>Libraries:</strong> path_provider (^2.1.0), hive (^2.2.3), hive_flutter (^1.1.0), shared_preferences (^2.2.0)</li>
+            </ul>
+
+            <h3>5.4 File Picker Permissions</h3>
+            <p><strong>Purpose:</strong> To allow you to select files for data import (user-initiated only).</p>
+            <ul>
+                <li><strong>iOS:</strong> Document picker access - requested only when you choose to import data</li>
+                <li><strong>Android:</strong> File access permission - requested only when you choose to import data</li>
+                <li><strong>Usage:</strong> Used only when you explicitly choose to import previously exported data</li>
+                <li><strong>Control:</strong> Only requested when you initiate an import action</li>
+                <li><strong>Library:</strong> file_picker (^8.1.2)</li>
+            </ul>
+
+            <h3>5.5 Sharing and Export Permissions</h3>
+            <p><strong>Purpose:</strong> To allow you to export and share your data in PDF or other formats.</p>
+            <ul>
+                <li><strong>iOS:</strong> Share sheet access - requested only when you choose to export/share data</li>
+                <li><strong>Android:</strong> Share intent permission - requested only when you choose to export/share data</li>
+                <li><strong>Usage:</strong> Used only when you explicitly choose to export or share your habit data</li>
+                <li><strong>Control:</strong> Only requested when you initiate an export/share action</li>
+                <li><strong>Libraries:</strong> share_plus (^7.0.0), pdf (^3.11.1), printing (^5.13.3)</li>
+            </ul>
+
+            <h3>5.6 Background Processing Permissions (iOS)</h3>
+            <p><strong>Purpose:</strong> To allow the app to update habit data and process notifications in the background.</p>
+            <ul>
+                <li><strong>Background App Refresh:</strong> UIBackgroundModes - "fetch" mode</li>
+                <li><strong>Background Processing:</strong> UIBackgroundModes - "processing" mode</li>
+                <li><strong>BGTaskScheduler:</strong> Identifier: com.savepoints.sa.habits.refresh</li>
+                <li><strong>Usage:</strong> Used to update habit data and process notifications when the app is not actively in use</li>
+                <li><strong>Control:</strong> You can enable or disable Background App Refresh for Habits in iOS Settings:
+                    <br>Settings → Habits → Background App Refresh</li>
+                <li><strong>Important:</strong> When disabled, the app will only process data when actively in use. No data is transmitted to external servers during background operations</li>
+            </ul>
+
+            <h3>5.7 Network Connectivity (No Data Transmission)</h3>
+            <p><strong>Purpose:</strong> To check network connectivity status (for potential future features).</p>
+            <ul>
+                <li><strong>Usage:</strong> Only checks if device is connected to network. No data is transmitted</li>
+                <li><strong>Library:</strong> connectivity_plus (^4.0.1)</li>
+                <li><strong>Note:</strong> The app functions completely offline. Network checking is for potential future features only</li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>Privacy Guarantee:</strong> All permissions are used solely for the stated purposes and do not
+                involve data transmission to external servers. Background capabilities (iOS background fetch and processing
+                modes) are used only to maintain app functionality and deliver notifications locally on your device. No data
+                is transmitted to external servers during background operations.
+            </div>
+
+            <p>
+                <strong>User Control:</strong> You have full control over all permissions. You can:
+            </p>
+            <ul>
+                <li>Enable or disable notifications for individual habits or globally</li>
+                <li>Enable or disable biometric authentication</li>
+                <li>Control background processing through iOS Settings → Habits → Background App Refresh</li>
+                <li>Grant or deny file access when importing/exporting data</li>
+                <li>All permissions are optional - the app will function with reduced features if permissions are denied</li>
+            </ul>
 
             <h2>6. Data Sharing and Export</h2>
 
@@ -293,10 +373,27 @@
                 The app uses the following open-source libraries for functionality (all processing is done locally):
             </p>
             <ul>
-                <li>Syncfusion Charts (for data visualization)</li>
-                <li>Table Calendar (for calendar views)</li>
-                <li>Hive (for local data storage)</li>
+                <li><strong>Hive & Hive Flutter:</strong> Local NoSQL database for storing habit data</li>
+                <li><strong>Shared Preferences:</strong> Simple key-value storage for app settings</li>
+                <li><strong>Syncfusion Flutter Charts:</strong> Data visualization and chart generation</li>
+                <li><strong>Table Calendar:</strong> Calendar views for habit scheduling</li>
+                <li><strong>Flutter Local Notifications:</strong> Local notification scheduling and delivery</li>
+                <li><strong>Local Auth:</strong> Biometric authentication (fingerprint/face recognition)</li>
+                <li><strong>Flutter Screen Lock:</strong> Screen lock protection features</li>
+                <li><strong>Path Provider:</strong> File system access for local storage</li>
+                <li><strong>File Picker:</strong> File selection for data import/export</li>
+                <li><strong>Share Plus:</strong> Native sharing functionality for exporting data</li>
+                <li><strong>PDF & Printing:</strong> PDF generation and printing capabilities</li>
+                <li><strong>Flutter Bloc:</strong> State management architecture</li>
+                <li><strong>Get It:</strong> Dependency injection framework</li>
+                <li><strong>Dio:</strong> HTTP client (used only for potential future features, currently offline-only)</li>
+                <li><strong>Connectivity Plus:</strong> Network connectivity checking (no data transmission)</li>
             </ul>
+            <p>
+                <strong>Important:</strong> All these libraries process data locally on your device. None of them transmit
+                your data to external servers or third-party services. The app remains fully functional without an
+                internet connection.
+            </p>
 
             <h2>8. Children's Privacy</h2>
             <p>
@@ -314,21 +411,26 @@
 
             <h3>9.2 Data Deletion</h3>
             <p>
-                You can delete your data at any time by:
+                You have complete control over your data and can delete it at any time using the following methods:
             </p>
             <ul>
-                <li>Deleting individual habits within the app</li>
-                <li>Clearing app data through your device settings</li>
-                <li>Uninstalling the app (this will permanently delete all local data)</li>
+                <li><strong>Delete Individual Habits:</strong> You can delete individual habits within the app at any time</li>
+                <li><strong>Clear All Data:</strong> You can clear all your data (habits, progress, settings, and preferences) directly from within the app's settings. This action permanently removes all locally stored data and cannot be undone</li>
+                <li><strong>Device Settings:</strong> You can clear all app data through your device settings (iOS: Settings → Habits → Delete App Data, or Android: Settings → Apps → Habits → Storage → Clear Data)</li>
+                <li><strong>Uninstall the App:</strong> Uninstalling the app will permanently delete all local data stored on your device</li>
             </ul>
+            <p>
+                <strong>Important:</strong> When you clear all data, all your habits, progress tracking, statistics, settings, and preferences will be permanently deleted from your device. This action cannot be undone. We recommend exporting your data before clearing if you want to keep a backup.
+            </p>
 
             <h2>10. Your Rights</h2>
             <p>Since all data is stored locally on your device, you have complete control and the following rights:</p>
             <ul>
                 <li><strong>Access:</strong> You can access all your data within the app at any time</li>
                 <li><strong>Modification:</strong> You can edit or update your habits and data at any time</li>
-                <li><strong>Deletion:</strong> You can delete any or all of your data at any time</li>
-                <li><strong>Export:</strong> You can export your data in various formats (PDF, etc.)</li>
+                <li><strong>Deletion:</strong> You can delete any or all of your data at any time, including clearing all data through the app settings or device settings</li>
+                <li><strong>Complete Data Removal:</strong> You can clear all your data (habits, progress, statistics, settings, and preferences) at any time, either through the app's settings or your device settings</li>
+                <li><strong>Export:</strong> You can export your data in various formats (PDF, etc.) before clearing it</li>
                 <li><strong>Portability:</strong> Your exported data can be used with other applications</li>
             </ul>
 
