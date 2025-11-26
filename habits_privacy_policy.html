@@ -220,7 +220,8 @@
             <ul>
                 <li>We do NOT collect personal identification information</li>
                 <li>We do NOT track your location</li>
-                <li>We do NOT access your contacts or photos (except when you explicitly choose to export data)</li>
+                <li>We do NOT access your contacts</li>
+                <li>We do NOT access your photos or photo library content (photo library permission is only used for file import/export operations when you explicitly choose to use it, not for accessing your photos)</li>
                 <li>We do NOT send your data to external servers</li>
                 <li>We do NOT use analytics or tracking services</li>
                 <li>We do NOT share data with third parties</li>
@@ -286,6 +287,7 @@
                 <li><strong>Usage:</strong> Used only for local authentication to unlock the app. Biometric data never leaves your device</li>
                 <li><strong>Control:</strong> Completely optional. You can use the app without enabling biometric authentication</li>
                 <li><strong>Library:</strong> local_auth (^2.1.0)</li>
+                <li><strong>iOS Permission Key:</strong> NSFaceIDUsageDescription - "Habits uses Face ID or Touch ID to securely unlock the app and protect your habit data."</li>
             </ul>
 
             <h3>5.3 File System and Storage Permissions</h3>
@@ -307,7 +309,17 @@
                 <li><strong>Library:</strong> file_picker (^8.1.2)</li>
             </ul>
 
-            <h3>5.5 Sharing and Export Permissions</h3>
+            <h3>5.5 Photo Library Permissions (iOS)</h3>
+            <p><strong>Purpose:</strong> To allow you to select files from your photo library when importing habit data and to save exported files to your photo library.</p>
+            <ul>
+                <li><strong>Photo Library Read Access (NSPhotoLibraryUsageDescription):</strong> Requested only when you choose to import data and need to select files from your photo library</li>
+                <li><strong>Photo Library Write Access (NSPhotoLibraryAddUsageDescription):</strong> Requested only when you choose to export data and want to save files to your photo library</li>
+                <li><strong>Usage:</strong> Used only when you explicitly choose to import or export data and select photo library as the source or destination</li>
+                <li><strong>Control:</strong> Only requested when you initiate an import or export action that involves the photo library. You can choose to use other file storage options instead</li>
+                <li><strong>Important:</strong> This permission is optional. The app can function fully using document picker and other file storage methods without accessing your photo library</li>
+            </ul>
+
+            <h3>5.6 Sharing and Export Permissions</h3>
             <p><strong>Purpose:</strong> To allow you to export and share your data in PDF or other formats.</p>
             <ul>
                 <li><strong>iOS:</strong> Share sheet access - requested only when you choose to export/share data</li>
@@ -317,7 +329,7 @@
                 <li><strong>Libraries:</strong> share_plus (^7.0.0), pdf (^3.11.1), printing (^5.13.3)</li>
             </ul>
 
-            <h3>5.6 Background Processing Permissions (iOS)</h3>
+            <h3>5.7 Background Processing Permissions (iOS)</h3>
             <p><strong>Purpose:</strong> To allow the app to update habit data and process notifications in the background.</p>
             <ul>
                 <li><strong>Background App Refresh:</strong> UIBackgroundModes - "fetch" mode</li>
@@ -329,7 +341,7 @@
                 <li><strong>Important:</strong> When disabled, the app will only process data when actively in use. No data is transmitted to external servers during background operations</li>
             </ul>
 
-            <h3>5.7 Network Connectivity (No Data Transmission)</h3>
+            <h3>5.8 Network Connectivity (No Data Transmission)</h3>
             <p><strong>Purpose:</strong> To check network connectivity status (for potential future features).</p>
             <ul>
                 <li><strong>Usage:</strong> Only checks if device is connected to network. No data is transmitted</li>
@@ -352,6 +364,7 @@
                 <li>Enable or disable biometric authentication</li>
                 <li>Control background processing through iOS Settings → Habits → Background App Refresh</li>
                 <li>Grant or deny file access when importing/exporting data</li>
+                <li>Grant or deny photo library access when importing/exporting data (iOS only)</li>
                 <li>All permissions are optional - the app will function with reduced features if permissions are denied</li>
             </ul>
 
