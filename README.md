@@ -85,6 +85,30 @@ https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/char
 https://m7hamed-dev.github.io/save_points_sa_privacy_polices/chart-video.gif
 ```
 
+## Viewing the International Date & Time Video
+
+The `video-intl.gif` file can be accessed via the following raw URLs:
+
+**GitHub Raw URL:**
+```
+https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/video-intl.gif
+```
+
+**raw.githack.com:**
+```
+https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/video-intl.gif
+```
+
+**jsDelivr CDN:**
+```
+https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/video-intl.gif
+```
+
+**GitHub Pages:**
+```
+https://m7hamed-dev.github.io/save_points_sa_privacy_polices/video-intl.gif
+```
+
 ## Files
 
 - `habits_privacy_policy.html` - Privacy policy for the Habits app
@@ -93,3 +117,4 @@ https://m7hamed-dev.github.io/save_points_sa_privacy_polices/chart-video.gif
 - `crafted_cv_privacy_policy_ar.html` - Privacy policy for the Crafted CV app (Arabic)
 - `swi_dashboard_privacy_policy.html` - Privacy policy for the SWI Dashboard app
 - `chart-video.gif` - Demo video/GIF showcasing the Modern Charts app interface and features
+- `video-intl.gif` - Demo video/GIF showcasing the Save Points Intl app with international date and time formatting examples
