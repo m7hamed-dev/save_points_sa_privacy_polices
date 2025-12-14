@@ -121,10 +121,13 @@ https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/vide
 ## Viewing the Showcase View Video
 
 ⚠️ **Important:** If you see a 404 error:
+- **First, verify the file exists on GitHub:** Check https://github.com/m7hamed-dev/save_points_sa_privacy_polices/tree/main to confirm `showcaseview-video.gif` is visible in the repository
+- **Try the direct GitHub blob URL first:** https://github.com/m7hamed-dev/save_points_sa_privacy_polices/blob/main/showcaseview-video.gif - If this works but raw URLs don't, it's a CDN sync delay
 - **The file must be committed and pushed to GitHub first** - These URLs only work after the file exists in the remote repository
-- Verify the file name is exactly `showcaseview-video.gif` (case-sensitive)
-- Check that you're using the correct branch name (default is `main`)
-- Wait a few minutes after pushing for CDN services to sync
+- Verify the file name is exactly `showcaseview-video.gif` (case-sensitive, no spaces)
+- Check that you're using the correct branch name (default is `main` - verify in your repository settings)
+- **CDN services may take 5-15 minutes to sync** after pushing - Try again later if GitHub blob URL works
+- Clear your browser cache or try an incognito window
 
 The `showcaseview-video.gif` file can be accessed via the following raw URLs:
 
