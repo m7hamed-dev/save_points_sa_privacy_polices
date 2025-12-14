@@ -118,10 +118,6 @@ https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/video-in
 https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/video-intl.gif
 ```
 
-**GitHub Pages:**
-```
-https://m7hamed-dev.github.io/save_points_sa_privacy_polices/video-intl.gif
-```
 
 ## Files
 
