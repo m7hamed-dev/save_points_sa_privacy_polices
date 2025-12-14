@@ -2,6 +2,16 @@
 
 Privacy policy files for Save Points SA applications.
 
+## ⚠️ Troubleshooting 404 Errors
+
+If you encounter a 404 error when accessing any file:
+
+1. **Check if the file exists** in the repository
+2. **Verify the branch name** - URLs use `main` by default. If your default branch is different (e.g., `master`), update the URLs accordingly
+3. **Ensure files are committed and pushed** to the remote repository
+4. **Wait a few minutes** after pushing - GitHub Pages and CDN services may take time to sync
+5. **Check the repository name** - Make sure `m7hamed-dev/save_points_sa_privacy_polices` matches your actual repository
+
 ## ⚠️ Important: HTML Rendering
 
 **To view HTML files as rendered web pages (not as plain text), you MUST use GitHub Pages.** 
@@ -63,6 +73,8 @@ https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/swi_
 
 ## Viewing the Chart Video
 
+⚠️ **Note:** If you see a 404 error, make sure the file has been pushed to the repository and you're using the correct branch name (default is `main`).
+
 The `chart-video.gif` file can be accessed via the following raw URLs:
 
 **GitHub Raw URL:**
@@ -86,6 +98,8 @@ https://m7hamed-dev.github.io/save_points_sa_privacy_polices/chart-video.gif
 ```
 
 ## Viewing the International Date & Time Video
+
+⚠️ **Note:** If you see a 404 error, make sure the file has been pushed to the repository and you're using the correct branch name (default is `main`).
 
 The `video-intl.gif` file can be accessed via the following raw URLs:
 
