@@ -118,6 +118,31 @@ https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/video-in
 https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/video-intl.gif
 ```
 
+## Viewing the Showcase View Video
+
+⚠️ **Important:** If you see a 404 error:
+- **The file must be committed and pushed to GitHub first** - These URLs only work after the file exists in the remote repository
+- Verify the file name is exactly `showcaseview-video.gif` (case-sensitive)
+- Check that you're using the correct branch name (default is `main`)
+- Wait a few minutes after pushing for CDN services to sync
+
+The `showcaseview-video.gif` file can be accessed via the following raw URLs:
+
+**GitHub Raw URL:**
+```
+https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/showcaseview-video.gif
+```
+
+**raw.githack.com:**
+```
+https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/showcaseview-video.gif
+```
+
+**jsDelivr CDN:**
+```
+https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/showcaseview-video.gif
+```
+
 ## Files
 
 - `habits_privacy_policy.html` - Privacy policy for the Habits app
@@ -127,3 +152,4 @@ https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/vide
 - `swi_dashboard_privacy_policy.html` - Privacy policy for the SWI Dashboard app
 - `chart-video.gif` - Demo video/GIF showcasing the Modern Charts app interface and features
 - `video-intl.gif` - Demo video/GIF showcasing the Save Points Intl app with international date and time formatting examples
+- `showcaseview-video.gif` - Demo video/GIF showcasing the guided product tour feature with design-first coach overlays
