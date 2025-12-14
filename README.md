@@ -118,7 +118,6 @@ https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/video-in
 https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/video-intl.gif
 ```
 
-
 ## Files
 
 - `habits_privacy_policy.html` - Privacy policy for the Habits app
