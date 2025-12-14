@@ -61,6 +61,29 @@ https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/craf
 https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/swi_dashboard_privacy_policy.html
 ```
 
+## Viewing the Chart Video
+
+The `chart-video.gif` file can be accessed via the following raw URLs:
+
+**GitHub Raw URL:**
+```
+https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/chart-video.gif
+```
+
+**raw.githack.com:**
+```
+https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/chart-video.gif
+```
+
+**jsDelivr CDN:**
+```
+https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/chart-video.gif
+```
+
+**GitHub Pages:**
+```
+https://m7hamed-dev.github.io/save_points_sa_privacy_polices/chart-video.gif
+```
 
 ## Files
 
@@ -69,3 +92,4 @@ https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/swi_
 - `crafted_cv_privacy_policy.html` - Privacy policy for the Crafted CV app (English)
 - `crafted_cv_privacy_policy_ar.html` - Privacy policy for the Crafted CV app (Arabic)
 - `swi_dashboard_privacy_policy.html` - Privacy policy for the SWI Dashboard app
+- `chart-video.gif` - Demo video/GIF showcasing the Modern Charts app interface and features
