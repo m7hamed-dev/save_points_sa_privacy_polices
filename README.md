@@ -146,6 +146,27 @@ https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/showcase
 https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/showcaseview-video.gif
 ```
 
+## Viewing the Extensions Utils Video
+
+⚠️ **Note:** If you see a 404 error, confirm the file is pushed to GitHub on the `main` branch and the path/filename is exactly `src/extensions_utils-video.gif`.
+
+The `extensions_utils-video.gif` file can be accessed via the following raw URLs:
+
+**GitHub Raw URL:**
+```
+https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/src/extensions_utils-video.gif
+```
+
+**raw.githack.com:**
+```
+https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/src/extensions_utils-video.gif
+```
+
+**jsDelivr CDN:**
+```
+https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/src/extensions_utils-video.gif
+```
+
 ## Files
 
 - `habits_privacy_policy.html` - Privacy policy for the Habits app
@@ -156,3 +177,4 @@ https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/show
 - `chart-video.gif` - Demo video/GIF showcasing the Modern Charts app interface and features
 - `video-intl.gif` - Demo video/GIF showcasing the Save Points Intl app with international date and time formatting examples
 - `showcaseview-video.gif` - Demo video/GIF showcasing the guided product tour feature with design-first coach overlays
+- `src/extensions_utils-video.gif` - Demo video/GIF showcasing the extensions and widgets demo (chained extensions, transform extensions, counters)
