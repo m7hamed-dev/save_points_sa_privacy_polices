@@ -33,6 +33,10 @@ Privacy policy files and demo GIFs for Save Points SA apps.
   - Raw: https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/src/extensions_utils-video.gif  
   - jsDelivr: https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/src/extensions_utils-video.gif
 
+- `src/save_points_snackbar_dialog_bottomsheet-video.gif`  
+  - Raw: https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/src/save_points_snackbar_dialog_bottomsheet-video.gif  
+  - jsDelivr: https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/src/save_points_snackbar_dialog_bottomsheet-video.gif
+
 ## Files
 - `habits_privacy_policy.html` - Habits app privacy policy
 - `alforsan_privacy_policy.html` - Alforsan Dashboard privacy policy
@@ -43,3 +47,4 @@ Privacy policy files and demo GIFs for Save Points SA apps.
 - `video-intl.gif` - Save Points Intl (international date/time) demo GIF
 - `showcaseview-video.gif` - Guided product tour demo GIF
 - `src/extensions_utils-video.gif` - Extensions & widgets demo GIF
+- `src/save_points_snackbar_dialog_bottomsheet-video.gif` - SavePoints Modern UI (dialogs, snackbars, bottom sheets) demo GIF
