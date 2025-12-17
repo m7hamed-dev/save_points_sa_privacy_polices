@@ -1,180 +1,45 @@
 # save_points_sa_privacy_polices
 
-Privacy policy files for Save Points SA applications.
+Privacy policy files and demo GIFs for Save Points SA apps.
 
-## ⚠️ Troubleshooting 404 Errors
+## Privacy policies (GitHub Pages)
+- https://m7hamed-dev.github.io/save_points_sa_privacy_polices/habits_privacy_policy.html
+- https://m7hamed-dev.github.io/save_points_sa_privacy_polices/alforsan_privacy_policy.html
+- https://m7hamed-dev.github.io/save_points_sa_privacy_polices/crafted_cv_privacy_policy.html
+- https://m7hamed-dev.github.io/save_points_sa_privacy_polices/crafted_cv_privacy_policy_ar.html
+- https://m7hamed-dev.github.io/save_points_sa_privacy_polices/swi_dashboard_privacy_policy.html
 
-If you encounter a 404 error when accessing any file:
+## Privacy policies (raw source)
+- https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/habits_privacy_policy.html
+- https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/alforsan_privacy_policy.html
+- https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/crafted_cv_privacy_policy.html
+- https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/crafted_cv_privacy_policy_ar.html
+- https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/swi_dashboard_privacy_policy.html
 
-1. **Check if the file exists** in the repository
-2. **Verify the branch name** - URLs use `main` by default. If your default branch is different (e.g., `master`), update the URLs accordingly
-3. **Ensure files are committed and pushed** to the remote repository
-4. **Wait a few minutes** after pushing - GitHub Pages and CDN services may take time to sync
-5. **Check the repository name** - Make sure `m7hamed-dev/save_points_sa_privacy_polices` matches your actual repository
+## Demo GIFs
+- `chart-video.gif`  
+  - Raw: https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/chart-video.gif  
+  - jsDelivr: https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/chart-video.gif
 
-## ⚠️ Important: HTML Rendering
+- `video-intl.gif`  
+  - Raw: https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/video-intl.gif  
+  - jsDelivr: https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/video-intl.gif
 
-**To view HTML files as rendered web pages (not as plain text), you MUST use GitHub Pages.** 
+- `showcaseview-video.gif`  
+  - Raw: https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/showcaseview-video.gif  
+  - jsDelivr: https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/showcaseview-video.gif
 
-GitHub Raw URLs and jsDelivr CDN will display HTML files as plain text source code. Only GitHub Pages serves HTML files with the correct `Content-Type` header to render them properly in browsers.
-
-## Viewing the Privacy Policy
-
-### Option 1: GitHub Pages (Recommended)
-
-1. Go to **Settings** → **Pages** in your repository
-2. Under "Source", select **"Deploy from a branch"**
-3. Choose branch: `main` and folder: `/ (root)`
-4. Click **Save**
-
-After a few minutes, view the privacy policies at:
-```
-https://m7hamed-dev.github.io/save_points_sa_privacy_polices/habits_privacy_policy.html
-https://m7hamed-dev.github.io/save_points_sa_privacy_polices/alforsan_privacy_policy.html
-https://m7hamed-dev.github.io/save_points_sa_privacy_polices/crafted_cv_privacy_policy.html
-https://m7hamed-dev.github.io/save_points_sa_privacy_polices/crafted_cv_privacy_policy_ar.html
-https://m7hamed-dev.github.io/save_points_sa_privacy_polices/swi_dashboard_privacy_policy.html
-```
-
-### Option 2: Raw.githack.com (Alternative - May Work)
-
-⚠️ **Note:** This service may take a few minutes to sync after pushing changes.
-
-View using raw.githack.com:
-```
-https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/habits_privacy_policy.html
-https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/alforsan_privacy_policy.html
-https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/crafted_cv_privacy_policy.html
-https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/crafted_cv_privacy_policy_ar.html
-https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/swi_dashboard_privacy_policy.html
-```
-
-### Option 3: GitHub Raw URL / jsDelivr CDN (Shows as Plain Text Only)
-
-⚠️ **Important:** These services display HTML files as plain text source code, NOT as rendered web pages. Use only if you need to view the source code.
-
-**GitHub Raw URLs:**
-```
-https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/habits_privacy_policy.html
-https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/alforsan_privacy_policy.html
-https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/crafted_cv_privacy_policy.html
-https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/crafted_cv_privacy_policy_ar.html
-https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/swi_dashboard_privacy_policy.html
-```
-
-**jsDelivr CDN:**
-```
-https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/habits_privacy_policy.html
-https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/alforsan_privacy_policy.html
-https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/crafted_cv_privacy_policy.html
-https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/crafted_cv_privacy_policy_ar.html
-https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/swi_dashboard_privacy_policy.html
-```
-
-## Viewing the Chart Video
-
-⚠️ **Note:** If you see a 404 error, make sure the file has been pushed to the repository and you're using the correct branch name (default is `main`).
-
-The `chart-video.gif` file can be accessed via the following raw URLs:
-
-**GitHub Raw URL:**
-```
-https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/chart-video.gif
-```
-
-**raw.githack.com:**
-```
-https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/chart-video.gif
-```
-
-**jsDelivr CDN:**
-```
-https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/chart-video.gif
-```
-
-**GitHub Pages:**
-```
-https://m7hamed-dev.github.io/save_points_sa_privacy_polices/chart-video.gif
-```
-
-## Viewing the International Date & Time Video
-
-⚠️ **Note:** If you see a 404 error, make sure the file has been pushed to the repository and you're using the correct branch name (default is `main`).
-
-The `video-intl.gif` file can be accessed via the following raw URLs:
-
-**GitHub Raw URL:**
-```
-https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/video-intl.gif
-```
-
-**raw.githack.com:**
-```
-https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/video-intl.gif
-```
-
-**jsDelivr CDN:**
-```
-https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/video-intl.gif
-```
-
-## Viewing the Showcase View Video
-
-⚠️ **Important:** If you see a 404 error:
-- **First, verify the file exists on GitHub:** Check https://github.com/m7hamed-dev/save_points_sa_privacy_polices/tree/main to confirm `showcaseview-video.gif` is visible in the repository
-- **Try the direct GitHub blob URL first:** https://github.com/m7hamed-dev/save_points_sa_privacy_polices/blob/main/showcaseview-video.gif - If this works but raw URLs don't, it's a CDN sync delay
-- **The file must be committed and pushed to GitHub first** - These URLs only work after the file exists in the remote repository
-- Verify the file name is exactly `showcaseview-video.gif` (case-sensitive, no spaces)
-- Check that you're using the correct branch name (default is `main` - verify in your repository settings)
-- **CDN services may take 5-15 minutes to sync** after pushing - Try again later if GitHub blob URL works
-- Clear your browser cache or try an incognito window
-
-The `showcaseview-video.gif` file can be accessed via the following raw URLs:
-
-**GitHub Raw URL:**
-```
-https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/showcaseview-video.gif
-```
-
-**raw.githack.com:**
-```
-https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/showcaseview-video.gif
-```
-
-**jsDelivr CDN:**
-```
-https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/showcaseview-video.gif
-```
-
-## Viewing the Extensions Utils Video
-
-⚠️ **Note:** If you see a 404 error, confirm the file is pushed to GitHub on the `main` branch and the path/filename is exactly `src/extensions_utils-video.gif`.
-
-The `extensions_utils-video.gif` file can be accessed via the following raw URLs:
-
-**GitHub Raw URL:**
-```
-https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/src/extensions_utils-video.gif
-```
-
-**raw.githack.com:**
-```
-https://raw.githack.com/m7hamed-dev/save_points_sa_privacy_polices/main/src/extensions_utils-video.gif
-```
-
-**jsDelivr CDN:**
-```
-https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/src/extensions_utils-video.gif
-```
+- `src/extensions_utils-video.gif`  
+  - Raw: https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/src/extensions_utils-video.gif  
+  - jsDelivr: https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/src/extensions_utils-video.gif
 
 ## Files
-
-- `habits_privacy_policy.html` - Privacy policy for the Habits app
-- `alforsan_privacy_policy.html` - Privacy policy for the Alforsan Dashboard (Laundry Management)
-- `crafted_cv_privacy_policy.html` - Privacy policy for the Crafted CV app (English)
-- `crafted_cv_privacy_policy_ar.html` - Privacy policy for the Crafted CV app (Arabic)
-- `swi_dashboard_privacy_policy.html` - Privacy policy for the SWI Dashboard app
-- `chart-video.gif` - Demo video/GIF showcasing the Modern Charts app interface and features
-- `video-intl.gif` - Demo video/GIF showcasing the Save Points Intl app with international date and time formatting examples
-- `showcaseview-video.gif` - Demo video/GIF showcasing the guided product tour feature with design-first coach overlays
-- `src/extensions_utils-video.gif` - Demo video/GIF showcasing the extensions and widgets demo (chained extensions, transform extensions, counters)
+- `habits_privacy_policy.html` - Habits app privacy policy
+- `alforsan_privacy_policy.html` - Alforsan Dashboard privacy policy
+- `crafted_cv_privacy_policy.html` - Crafted CV app (English) privacy policy
+- `crafted_cv_privacy_policy_ar.html` - Crafted CV app (Arabic) privacy policy
+- `swi_dashboard_privacy_policy.html` - SWI Dashboard privacy policy
+- `chart-video.gif` - Modern Charts demo GIF
+- `video-intl.gif` - Save Points Intl (international date/time) demo GIF
+- `showcaseview-video.gif` - Guided product tour demo GIF
+- `src/extensions_utils-video.gif` - Extensions & widgets demo GIF
