@@ -24,6 +24,13 @@ Privacy policy files and demo GIFs for Save Points SA apps.
 - `video-intl.gif`  
   - Raw: https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/video-intl.gif  
   - jsDelivr: https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/video-intl.gif
+ 
+- caseview
+![Image](https://github.com/user-attachments/assets/cdd39698-c90e-455c-82ea-3264e462aa9b)
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/561459a6-9d45-4771-bd22-d7c71d10ed31" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/930c0cbf-75ef-465c-9efa-8d320efa2434" />
+<img width="2752" height="1536" alt="Image" src="https://github.com/user-attachments/assets/cd1190cc-aeae-4009-8d9d-a01c6c71a9b9" />
   
 - `src/extensions_utils-video.gif`  
   - Raw: https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/src/extensions_utils-video.gif  
