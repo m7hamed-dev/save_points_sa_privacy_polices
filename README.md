@@ -35,8 +35,15 @@ Privacy policy files and demo GIFs for Save Points SA apps.
   - jsDelivr: https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/src/extensions_utils-video.gif
 
 - `src/save_points_snackbar_dialog_bottomsheet-video.gif`  
-  - Raw: https://raw.githubusercontent.com/m7hamed-dev/save_points_sa_privacy_polices/main/src/save_points_snackbar_dialog_bottomsheet-video.gif  
-  - jsDelivr: https://cdn.jsdelivr.net/gh/m7hamed-dev/save_points_sa_privacy_polices@main/src/save_points_snackbar_dialog_bottomsheet-video.gif
+
+
+<img width="2752" height="1536" alt="Image" src="https://github.com/user-attachments/assets/05a6eb09-54c2-4e49-8447-14aef43b28ea" />
+
+<img width="1920" height="1080"  alt="Image" src="https://github.com/user-attachments/assets/de97592d-503e-4595-a8fd-6e0602c75535" />
+<img width="1920" height="1080"  alt="Image" src="https://github.com/user-attachments/assets/f60ce6c6-ee79-4eaa-b638-d0af32fe4eae" />
+<img width="1920" height="1080"  alt="Image" src="https://github.com/user-attachments/assets/bd6102c0-15dc-4026-9309-ebb9f1245653" />
+
+
 
 ## Files
 - `habits_privacy_policy.html` - Habits app privacy policy
