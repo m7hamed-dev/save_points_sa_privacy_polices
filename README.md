@@ -57,8 +57,6 @@ Privacy policy files and demo GIFs for Save Points SA apps.
 <img width="2032" height="4660" alt="code" src="https://github.com/user-attachments/assets/21206949-ad63-4242-8e28-69ad55d5ab87" />
 <img width="1608" height="916" alt="2" src="https://github.com/user-attachments/assets/8804a268-c17f-48cc-a704-7c42a5ff2e46" />
 
-
-
 ## Files
 - `habits_privacy_policy.html` - Habits app privacy policy
 - `alforsan_privacy_policy.html` - Alforsan Dashboard privacy policy
